@@ -230,7 +230,80 @@ New Permissions -> Everyone -> All
 </p>
 <p>
 Go back to osTicket Installer, continue Setting up osTicket in the browser. (click Continue)
-Name Helpdesk. Default email. (receives email from customers) Set up System Settings and Admin User. (remember user and password)
+Name Helpdesk. Default email. (receives email from customers) Set up System Settings and Admin User. (remember user and password) 
+<p>Before continuing we need to set up Database for SQL</p>
+</p>
+<br />
+
+<p>
+  
+![NewConnectionToOsTicket](https://github.com/user-attachments/assets/a80a9d23-b17a-483d-a02a-9b5bfc975e4d)
+
+</p>
+<p>
+From the Installation Files, download and install HeidiSQL.
+<p>Open Heidi SQL</p>
+<p>Create a new session, root/Password1</p>
+<p>Connect to the session</p>
+<p>Create a database called “osTicket”
+</p>
+<br />
+
+<p>
+  
+![SetupSQLsettings](https://github.com/user-attachments/assets/b59ac290-c38b-4534-8d97-2892aaa619f8)
+
+</p>
+<p>
+Continue Setting up osticket in the browser
+<p>MySQL Database: osTicket</p>
+
+<br />
+
+<p>
+  
+![NewConnectionToOsTicket](https://github.com/user-attachments/assets/e9c1cd54-df9b-465d-aabe-3394a45307ca)
+
+</p>
+<p>
+Click New and type <p>MySQL Username: root</p>
+<p>MySQL Password: Password1</p> Click "Open" Then right click "Unamed" -> "Create New" -> "Database" Name it "osTicket"
+
+</p>
+<br />
+
+<p>
+  
+![SQLcreateDatabase](https://github.com/user-attachments/assets/7da935fb-d404-477d-aee1-97f6ccb1fdd1)
+
+</p>
+<p>
+ Then right click "Unamed" -> "Create New" -> "Database" Name it "osTicket"
+</p>
+<br />
+
+<p>
+  
+![DatabasToOsTicket](https://github.com/user-attachments/assets/d0af9c03-4b3a-47c5-852f-7fe9cac469f9)
+
+</p>
+<p>
+Name it "osTicket"
+</p>
+<br />
+
+<p>
+  
+![AddMySQLDatabase](https://github.com/user-attachments/assets/ba9dcfde-4ca1-4e2a-8e51-8a6ec03c1bc5)
+
+</p>
+<p>
+Continue Setting up osticket in the browser
+<p>MySQL Database: osTicket</p>
+<p>MySQL Username: root</p>
+<p>MySQL Password: Password1</p>
+<p>Click “Install Now!”</p>
+
 </p>
 <br />
 
@@ -249,5 +322,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+
 
 
