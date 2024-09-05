@@ -129,7 +129,39 @@ Open IIS as an Admin
 
 </p>
 <p>
-Register PHP from within IIS. Click on PHP Manager --> Register new PHP version --> Windows(C): --> C:\PHP --> php-cgi then click Open and then OK.
+Register PHP from within IIS. Click on PHP Manager --> Register new PHP version --> Windows(C): --> C:\PHP --> php-cgi then click Open and then OK. Then reload IIS (Open IIS, Stop and Start the server)
+</p>
+<br />
+
+<p>
+  
+![DragDropUploadToWwwroot](https://github.com/user-attachments/assets/2761f70a-fd73-44ec-990b-b29424da5e90)
+
+</p>
+<p>
+Install osTicket v1.15.8. Download osTicket from the Installation Files Folder. Extract and copy “upload” folder to c:\inetpub\wwwroot.
+
+<br />
+
+<p>
+  
+![RenameUploadTOosTicket](https://github.com/user-attachments/assets/692d7216-0d6f-4a23-a52f-f46d4f23b47f)
+
+</p>
+<p>
+Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” Reload IIS again (Open IIS, Stop and Start the server)
+</p>
+<br />
+
+<p>
+  
+![IIStoSitesToDefaultWebToOsticket](https://github.com/user-attachments/assets/685c8bb5-b353-47e9-9b34-2b3c425a77ef)
+
+</p>
+<p>
+Go to sites -> Default -> osTicket
+On the right, click “Browse *:80”
+
 </p>
 <br />
 
