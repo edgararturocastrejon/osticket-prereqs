@@ -18,18 +18,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Have Azure tenant created 
+- Have an active subscription with Azure
+- Have a resource group created
+- Have a virtual network and a subnet created 
+- Have a virtual machine created all within Azure
 
 <h2>Installation Steps</h2>
 
 
 <p>
-<img src="![image](https://github.com/user-attachments/assets/05ca6fc9-3abe-4b80-9af2-d01006632aa7)
-" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img ![Screen Shot 2024-09-05 at 12 27 57 PM](https://github.com/user-attachments/assets/bbc7a32f-cfb9-49c2-8514-3ff8b8608c47) />
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
