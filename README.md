@@ -159,7 +159,7 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” Reload IIS agai
 
 </p>
 <p>
-Go to sites -> Default -> osTicket. On the right, click “Browse *:80” Note that some extensions are not enabled
+Go to sites -> Default -> osTicket. On the right, click “Browse *:80”  <p></p>Note that some extensions are not enabled
 Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
 Click “Enable or disable an extension”
@@ -174,7 +174,9 @@ Refresh the osTicket site in your browse, observe the changes
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Rename: ost-config.php
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <br />
 
