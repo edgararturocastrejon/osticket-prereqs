@@ -207,18 +207,19 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php <p>ost-sampleconfig.php n
 
 </p>
 <p>
+<p> Right click the newly named ost-config.php file go to "Properties" -> "Security" -> "Advanced" -> "Disable inheritance" -> "Remove all inheritance" </p>
 Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
-New Permissions -> Everyone -> All
-
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
+![AddEveryone](https://github.com/user-attachments/assets/b95b7244-1d87-4cf0-b786-e9a84712a828)
+
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p> Click Add -> "Select principal" Then type Everyone -> "Check Names" then press "OK" Check the box "full control" and press "OK" Press "Apply" and "OK" <p> 
+New Permissions -> Everyone -> All
 </p>
 <br />
 
