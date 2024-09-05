@@ -35,8 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
  </p>
 <p>
-First go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to log imto your virtual machine. Using command and space bar search for Microsoft Remote Desktop. Click add PC, then paste the Public IP address. Use the username and password you created to login. 
-
+First, go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to log imto your virtual machine. Using command and space bar search for Microsoft Remote Desktop. Click add PC, then paste the Public IP address. Use the username and password you created to login. 
 </p>
 <br />
 
@@ -46,9 +45,47 @@ First go to your VM and copy the Public IP address. When using a Mac you'll have
 
 </p>
 <p>
-When logged in you can click no to all the privacy settings an click yes on Network to enable other computers from your network to find you. Then, open and download this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. We will use these files to open and install osTicket. Upload the files on your desktop. (for convenience) When finished click the start panel on the bottom left corner and type Control Panel. Under Programs click Uninstall a program. On the left click on Turn Windows features on or off. Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. 
+When logged in you can click no to all the privacy settings an click yes on Network to enable other computers from your network to find you. Then, open and download this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. We will use these files to open and install osTicket. Upload the files on your desktop. (for convenience) When finished click the start panel on the bottom left corner and type Control Panel. Under Programs click Uninstall a program. On the left click on Turn Windows features on or off. Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
+</p>
+<br />
 
+<p>
   
+![InstallPHP](https://github.com/user-attachments/assets/4b788123-b35c-4079-8b6f-49ac2994276f)
+  
+</p>
+<p>
+After that go to your desktop to the Installation Files, download and install PHP Manager for IIS. (PHPManagerForIIS_V1.5.0.msi) Say yes to eveything to finish installing. 
+</p>
+<br />
+
+<p>
+  
+![InstallRewriteModule](https://github.com/user-attachments/assets/dcf7cd30-0377-4871-9443-ed9c5236ff26)
+
+</p>
+<p>
+From the Installation Files, download and install the Rewrite Module. (rewrite_amd64_en-US.msi)
+</p>
+<br />
+
+<p>
+<p>
+  
+![CtreatePHPfolder](https://github.com/user-attachments/assets/7a55c885-a82d-4f5f-aa51-860fd5e350e6)
+
+</p>
+<p>
+Go to File Explorer to create the directory C:\PHP
+</p>
+<br />
+
+</p>
+
+![TypePHP](https://github.com/user-attachments/assets/2bea6ef4-2009-4c4d-943e-5282a07001e2)
+
+<p>
+From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP. If you are having trouble downloading PHP 7.3.8, please try downloading and installing Google Chrome and doing it from within there. 
 </p>
 <br />
 
@@ -59,3 +96,68 @@ When logged in you can click no to all the privacy settings an click yes on Netw
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
