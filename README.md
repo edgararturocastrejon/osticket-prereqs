@@ -20,19 +20,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Have Azure tenant created 
 - Have an active subscription with Azure
-- Have a resource group created
-- Have a virtual network and a subnet created 
-- Have a virtual machine created all within Azure
+- Create a Resource Group for Vitual Machine (VM)
+- Create a Windows 10 VM with 2-4 Virtual CPUs. When creating the VM, allow it to create a new Virtual Network (Vnet)
+- Name: Vm-osticket, Username: labuser (for example/whatever you chose), Password: osTicketPassword1! (for example/whatever you chose)
+
 
 <h2>Installation Steps</h2>
 
 
 <p>
-<img ![Screen Shot 2024-09-05 at 12 27 57 PM](https://github.com/user-attachments/assets/bbc7a32f-cfb9-49c2-8514-3ff8b8608c47) />
-
-</p>
+  
+![image](https://github.com/user-attachments/assets/5c78c0a3-7d1f-4282-b783-161d0dd24a71) 
+  
+ </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+When using a Mac you'll have to use Microsoft Remote Desktop to log imto your virtual machine. Use the username and password you created to login. 
+
 </p>
 <br />
 
