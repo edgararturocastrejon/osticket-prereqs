@@ -237,27 +237,14 @@ Name Helpdesk. Default email. (receives email from customers) Set up System Sett
 
 <p>
   
-![NewConnectionToOsTicket](https://github.com/user-attachments/assets/a80a9d23-b17a-483d-a02a-9b5bfc975e4d)
+![DownloadHeidiSQL](https://github.com/user-attachments/assets/2708ef7d-0220-4ec2-b11a-8bf8794932e8)
 
 </p>
 <p>
 From the Installation Files, download and install HeidiSQL.
 <p>Open Heidi SQL</p>
 <p>Create a new session, root/Password1</p>
-<p>Connect to the session</p>
-<p>Create a database called “osTicket”
 </p>
-<br />
-
-<p>
-  
-![SetupSQLsettings](https://github.com/user-attachments/assets/b59ac290-c38b-4534-8d97-2892aaa619f8)
-
-</p>
-<p>
-Continue Setting up osticket in the browser
-<p>MySQL Database: osTicket</p>
-
 <br />
 
 <p>
@@ -267,7 +254,7 @@ Continue Setting up osticket in the browser
 </p>
 <p>
 Click New and type <p>MySQL Username: root</p>
-<p>MySQL Password: Password1</p> Click "Open" Then right click "Unamed" -> "Create New" -> "Database" Name it "osTicket"
+<p>MySQL Password: Password1</p> Click "Open" 
 
 </p>
 <br />
@@ -304,22 +291,6 @@ Continue Setting up osticket in the browser
 <p>MySQL Password: Password1</p>
 <p>Click “Install Now!”</p>
 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
