@@ -129,7 +129,7 @@ Open IIS as an Admin
 
 </p>
 <p>
-Register PHP from within IIS. Click on PHP Manager --> Register new PHP version --> Windows(C): --> C:\PHP --> php-cgi then click Open and then OK. Then reload IIS (Open IIS, Stop and Start the server)
+Register PHP from within IIS. Click on PHP Manager -> Register new PHP version -> Windows(C): -> C:\PHP -> php-cgi then click Open and then OK. Then reload IIS (Open IIS, Stop and Start the server)
 </p>
 <br />
 
@@ -159,9 +159,14 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” Reload IIS agai
 
 </p>
 <p>
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
-
+Go to sites -> Default -> osTicket. On the right, click “Browse *:80” Note that some extensions are not enabled
+Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager
+Click “Enable or disable an extension”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Refresh the osTicket site in your browse, observe the changes
 </p>
 <br />
 
