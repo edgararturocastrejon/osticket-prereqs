@@ -275,7 +275,7 @@ Click New and type <p>MySQL Username: root</p>
 
 </p>
 <p>
-Name it "osTicket"
+Name it "osTicket" and click "OK"
 </p>
 <br />
 
