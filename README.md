@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
  </p>
 <p>
-First, go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to log imto your virtual machine. Using command and space bar search for Microsoft Remote Desktop. Click add PC, then paste the Public IP address. Use the username and password you created to login. 
+First, go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to log imto your virtual machine. Using command and space bar search for "Microsoft Remote Desktop". Click add PC, then paste the Public IP address. Use the username and password you created to login. 
 </p>
 <br />
 
