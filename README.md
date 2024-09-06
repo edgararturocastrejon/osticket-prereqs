@@ -10,7 +10,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - MacBook Pro
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
