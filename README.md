@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
  </p>
 <p>
-First, go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to log imto your virtual machine. Using command and space bar search for "Microsoft Remote Desktop". Click add PC, then paste the Public IP address. Use the username and password you created to login. 
+First, go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to login to your virtual machine. Using command and space bar search for "Microsoft Remote Desktop". Click add PC, then paste the Public IP address. Use the username and password you created to login. 
 </p>
 <br />
 
@@ -45,7 +45,8 @@ First, go to your VM and copy the Public IP address. When using a Mac you'll hav
 
 </p>
 <p>
-When logged in you can click no to all the privacy settings an click yes on Network to enable other computers from your network to find you. Then, open this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. We will use these files to open and install osTicket. Upload the files on your desktop. (for convenience) <p>When finished click the start panel on the bottom left corner and type "Control Panel". Under Programs click "Uninstall a program". On the left click on "Turn Windows features on or off". Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
+When logged in you can click "No" to each of the privacy settings and click "Yes" on Network to enable other computers from your network to find you. Then, open this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. We will use these files to open and install osTicket. Upload the files on your desktop. (for convenience) 
+<p>When finished click the start panel on the bottom left corner and type "Control Panel". Under Programs click "Uninstall a program". On the left click on "Turn Windows features on or off". Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
 </p>
 <br />
 
