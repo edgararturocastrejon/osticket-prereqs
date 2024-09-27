@@ -47,7 +47,7 @@ First, go to your VM and copy the Public IP address. When using a Mac you'll hav
 <p>
 When logged in you can click "No" to each of the privacy settings and click "Yes" on Network to enable other computers from your network to find you. 
 <p> Then, open this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. We will use these files to open and install osTicket. Upload the files on your desktop. (for convenience) </p>
-<p> When finished click the start panel on the bottom left corner and type "Control Panel". Under Programs click "Uninstall a program". On the left click on "Turn Windows features on or off". Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
+<p> When finished click the start panel on the bottom left corner and type "Control Panel". Under Programs click "Uninstall a program". On the left click on "Turn Windows features on or off". <p> Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
 </p>
 <br />
 
@@ -87,7 +87,8 @@ Go to File Explorer to create the directory C:\PHP
 ![TypePHP](https://github.com/user-attachments/assets/2bea6ef4-2009-4c4d-943e-5282a07001e2)
 
 <p>
-From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP. If you are having trouble downloading PHP 7.3.8, please try downloading and installing Google Chrome and doing it from within there. 
+From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP. <p/>
+  <p> If you are having trouble downloading PHP 7.3.8, please try downloading and installing Google Chrome and doing it from within there. 
 </p>
 <br />
 
@@ -231,7 +232,7 @@ New Permissions -> Everyone -> All
 
 </p>
 <p>
-Go back to osTicket Installer, continue Setting up osTicket in the browser. (click Continue)
+Go back to osTicket Installer, continue Setting up osTicket in the browser. (click Continue) <p/>
 Name: Helpdesk. Default email. (receives email from customers) Set up System Settings and Admin User. (remember user and password) 
 <p> Before continuing we need to set up Database for SQL </p>
 </p>
