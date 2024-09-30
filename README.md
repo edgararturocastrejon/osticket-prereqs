@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   
  </p>
 <p>
-First, go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to login to your virtual machine. <p> Using command and space bar search for "Microsoft Remote Desktop". Click add PC, then paste the Public IP address. Use the username and password you created to login. <p/>
+1) Go to your VM and copy the Public IP address. When using a Mac you'll have to use Microsoft Remote Desktop to login to your virtual machine. <p> Using command and space bar search for "Microsoft Remote Desktop". Click add PC, then paste the Public IP address. Use the username and password you created to login. <p/>
 </p>
 <br />
 
@@ -46,7 +46,8 @@ First, go to your VM and copy the Public IP address. When using a Mac you'll hav
 </p>
 <p>
 Open this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. We will use these files to open and install osTicket. Upload the files on your desktop. (for convenience) </p>
-<p> When finished click the start panel on the bottom left corner and type "Control Panel". Under Programs click "Uninstall a program". On the left click on "Turn Windows features on or off". <p> Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
+<p> 2) Click the start panel on the bottom left corner and type "Control Panel". Under Programs click "Uninstall a program". On the left click on "Turn Windows features on or off". 
+<p> 3) Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
 </p>
 <br />
 
@@ -56,7 +57,7 @@ Open this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUw
   
 </p>
 <p>
-After that go to your desktop to the Installation Files, download and install PHP Manager for IIS. (PHPManagerForIIS_V1.5.0.msi) Say yes to eveything to finish installing. 
+4) Go to your desktop to the Installation Files, download and install PHP Manager for IIS. (PHPManagerForIIS_V1.5.0.msi) Say yes to eveything to finish installing. 
 </p>
 <br />
 
@@ -66,7 +67,7 @@ After that go to your desktop to the Installation Files, download and install PH
 
 </p>
 <p>
-From the Installation Files, download and install the Rewrite Module. (rewrite_amd64_en-US.msi)
+5) From the Installation Files, download and install the Rewrite Module. (rewrite_amd64_en-US.msi)
 </p>
 <br />
 
@@ -77,7 +78,7 @@ From the Installation Files, download and install the Rewrite Module. (rewrite_a
 
 </p>
 <p>
-Go to File Explorer to create the directory C:\PHP
+6) Go to File Explorer to create the directory C:\PHP
 </p>
 <br />
 
@@ -86,7 +87,7 @@ Go to File Explorer to create the directory C:\PHP
 ![TypePHP](https://github.com/user-attachments/assets/2bea6ef4-2009-4c4d-943e-5282a07001e2)
 
 <p>
-From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP. <p/>
+7) From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP. <p/>
   <p> If you are having trouble downloading PHP 7.3.8, please try downloading and installing Google Chrome and doing it from within there. 
 </p>
 <br />
@@ -97,7 +98,7 @@ From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zi
 
 </p>
 <p>
-From the Installation Files, download and install VC_redist.x86.exe.
+8) From the Installation Files, download and install VC_redist.x86.exe.
 </p>
 <br />
 
@@ -107,7 +108,7 @@ From the Installation Files, download and install VC_redist.x86.exe.
 
 </p>
 <p>
-From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+9) From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 Typical Setup ->
 Launch Configuration Wizard (after install) ->
 Standard Configuration ->
@@ -121,7 +122,7 @@ Password1
 
 </p>
 <p>
-Open IIS as an Admin
+10) Open IIS as an Admin
 </p>
 <br />
 
@@ -131,7 +132,7 @@ Open IIS as an Admin
 
 </p>
 <p>
-Register PHP from within IIS. Click on PHP Manager -> Register new PHP version -> Windows(C): -> C:\PHP -> php-cgi then click Open and then OK. Then reload IIS (Open IIS, Stop and Start the server)
+11) Register PHP from within IIS. Click on PHP Manager -> Register new PHP version -> Windows(C): -> C:\PHP -> php-cgi then click Open and then OK. Then reload IIS (Open IIS, Stop and Start the server)
 </p>
 <br />
 
@@ -141,7 +142,7 @@ Register PHP from within IIS. Click on PHP Manager -> Register new PHP version -
 
 </p>
 <p>
-Install osTicket v1.15.8. Download osTicket from the Installation Files Folder. Extract and copy “upload” folder to c:\inetpub\wwwroot.
+13) Install osTicket v1.15.8. Download osTicket from the Installation Files Folder. Extract and copy “upload” folder to c:\inetpub\wwwroot.
 
 <br />
 
@@ -151,7 +152,7 @@ Install osTicket v1.15.8. Download osTicket from the Installation Files Folder. 
 
 </p>
 <p>
-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” Reload IIS again (Open IIS, Stop and Start the server)
+14) Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” Reload IIS again (Open IIS, Stop and Start the server)
 </p>
 <br />
 
@@ -161,7 +162,7 @@ Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” Reload IIS agai
 
 </p>
 <p>
-Go to sites -> Default -> osTicket. On the right, click “Browse *:80” 
+15) Go to sites -> Default -> osTicket. On the right, click “Browse *:80” 
 </p>
 <br />
 
@@ -171,7 +172,7 @@ Go to sites -> Default -> osTicket. On the right, click “Browse *:80”
 
 </p>
 <p>Note that some extensions are not enabled
-Go back to IIS, sites -> Default -> osTicket
+16) Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
 Click “Enable or disable an extension”
 Enable: php_imap.dll
@@ -197,7 +198,7 @@ Refresh the osTicket site in your browse, observe the changes
 
 </p>
 <p>
-From the File Explorer Rename: ost-config.php
+17) From the File Explorer Rename: ost-config.php
 From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php <p>ost-sampleconfig.php new file name should be ost-config.php</p>
 </p>
@@ -209,7 +210,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php <p>ost-sampleconfig.php n
 
 </p>
 <p>
-<p> Right click the newly named ost-config.php file go to "Properties" -> "Security" -> "Advanced" -> "Disable inheritance" -> "Remove all inheritance" </p>
+<p> 18) Right click the newly named ost-config.php file go to "Properties" -> "Security" -> "Advanced" -> "Disable inheritance" -> "Remove all inheritance" </p>
 Assign Permissions: ost-config.php
 Disable inheritance -> Remove All
 </p>
@@ -220,7 +221,7 @@ Disable inheritance -> Remove All
 ![AddEveryone](https://github.com/user-attachments/assets/b95b7244-1d87-4cf0-b786-e9a84712a828)
 
 </p>
-<p> Click Add -> "Select principal" Then type Everyone -> "Check Names" then press "OK" Check the box "full control" and press "OK" Press "Apply" and "OK" <p> 
+<p> 19) Click Add -> "Select principal" Then type Everyone -> "Check Names" then press "OK" Check the box "full control" and press "OK" Press "Apply" and "OK" <p> 
 New Permissions -> Everyone -> All
 </p>
 <br />
@@ -243,7 +244,7 @@ Name: Helpdesk. Default email. (receives email from customers) Set up System Set
 
 </p>
 <p>
-From the Installation Files, download and install HeidiSQL.
+20) From the Installation Files, download and install HeidiSQL.
 <p>Open Heidi SQL</p>
 <p>Create a new session, root/Password1</p>
 </p>
@@ -292,6 +293,10 @@ Continue Setting up osticket in the browser
 <p>MySQL Username: root</p>
 <p>MySQL Password: Password1</p>
 <p>Click “Install Now!”</p>
+
+![68747470733a2f2f696d6775722e636f6d2f754856644473782e706e67](https://github.com/user-attachments/assets/bfd3a1d3-1eee-4e0a-9c3f-fdf26155bfca)
+
+Congratulations! You've installed osTicket
 
 </p>
 <br />
