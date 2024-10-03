@@ -45,7 +45,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Open this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. We will use these files to open and install osTicket. Upload the files on your desktop. (for convenience) </p>
+Open this: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. Within the VM (Vm-osticket), download the osTicket-Installation-Files.zip and unzip it onto your desktop. (for convenience) The folder should be called “osTicket-Installation-Files” </p> 
 <p> 2) Click the start panel on the bottom left corner and type "Control Panel". Under Programs click "Uninstall a program". On the left click on "Turn Windows features on or off". 
 <p> 3) Check the box that says Internet Information Services. (IIS) Inside World Wide Web Services click -> Application Development Features -> and enable [X] CGI [X] Common HTTP Features. Go to internt explorer and type on the address bar 127.0.0.1 to check if installation was successful.
 </p>
