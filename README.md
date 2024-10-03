@@ -294,7 +294,7 @@ Continue Setting up osticket in the browser
 <p>MySQL Password: Password1</p>
 <p>Click “Install Now!”</p>
 
-![68747470733a2f2f696d6775722e636f6d2f754856644473782e706e67](https://github.com/user-attachments/assets/bfd3a1d3-1eee-4e0a-9c3f-fdf26155bfca)
+![Screen Shot 2024-10-03 at 1 50 31 PM](https://github.com/user-attachments/assets/d4626c0d-88b0-43bd-9363-6f998fef576f)
 
 Congratulations! You've installed osTicket
 
