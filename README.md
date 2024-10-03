@@ -296,7 +296,12 @@ Continue Setting up osticket in the browser
 
 ![Screen Shot 2024-10-03 at 1 50 31 PM](https://github.com/user-attachments/assets/d4626c0d-88b0-43bd-9363-6f998fef576f)
 
-Congratulations! You've installed osTicket
+Congratulations! You've installed osTicket! <p/>
+Browse to your help desk login page: http://localhost/osTicket/scp/login.php <p/> 
+
+End Users osTicket URL:
+http://localhost/osTicket/ 
+
 
 </p>
 <br />
