@@ -171,7 +171,7 @@ Password1
 ![EnablePHPimap,intl,opcache](https://github.com/user-attachments/assets/07b60b32-0c36-449d-aa30-27856e07ccfd)
 
 </p>
-<p>Note that some extensions are not enabled
+<p>Note that some extensions are not enabled <p/>
 16) Go back to IIS, sites -> Default -> osTicket
 Double-click PHP Manager
 Click “Enable or disable an extension”
